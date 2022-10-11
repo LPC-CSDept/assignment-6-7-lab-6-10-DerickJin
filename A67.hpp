@@ -28,11 +28,9 @@ void swap(int& n1, int& n2, int& n3)
 void swap(int& n1, int& n2, int& n3, int& n4)
 {
     int one = n1;
-    int two = n2;
-    int three = n3;
-    
-    n1 = n4;
-    n2 = one;
-    n3 = two;
-    n4 = three;
+
+    n1 = n2;
+    n2 = n3;
+    n3 = n4;
+    n4 = one;
 }
